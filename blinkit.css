@@ -1,0 +1,133 @@
+body {
+  margin: 0px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+  width: 95%;
+
+  justify-content: center;
+
+  border: 34px solid white;
+  border-top: 4px solid white;
+}
+/* PART 1 NAVBAR */
+.navbar {
+  position: fixed;
+  top: 0px;
+  background-color: white;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  /* background-color: red; */
+  border-bottom: 0.1px solid rgb(214, 211, 211);
+  justify-content: space-evenly;
+}
+
+.box1 {
+  display: flex;
+  height: 100%;
+  width: 30%;
+}
+/* logo */
+.logo {
+  width: 40%;
+  /* background-color: antiquewhite; */
+  align-content: center;
+  border-right: 1px solid rgb(214, 211, 211);
+}
+.logo img {
+  width: 80%;
+}
+/* info */
+.info p {
+  margin-left: 40px;
+  align-content: center;
+}
+.info p:nth-child(1) {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: larger;
+  font-weight: bolder;
+}
+.info p:nth-child(2) {
+  font-size: smaller;
+
+  margin-top: 0px;
+}
+/* PART 2  Search */
+.box2 {
+  display: flex;
+  width: 40%;
+
+  justify-content: center;
+}
+input {
+  height: 40px;
+  width: 100%;
+  border: 1px solid rgb(214, 211, 211);
+  border-radius: 10px;
+  margin-top: 30px;
+}
+select {
+  border: 0px;
+}
+.fa-magnifying-glass {
+  position: relative;
+  top: 44px;
+  left: 28px;
+}
+/* PART 3 LOGIN */
+.box3 {
+  width: 20%;
+  /* background-color: brown; */
+  align-content: center;
+}
+.box3 button {
+  cursor: pointer;
+}
+
+.box3 button:nth-child(1) {
+  border: 0px;
+  width: 30%;
+  height: 100%;
+  background: white;
+  background-color: white;
+  font-size: x-large;
+}
+.box3 button:nth-child(2) {
+  width: 40%;
+  height: 50px;
+  border: 0px;
+  color: white;
+  background: rgb(228, 223, 223);
+  background-color: rgb(228, 223, 223);
+  border-radius: 10px;
+  font-size: large;
+  margin-left: 60px;
+}
+.banner img {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.banner2 {
+  width: 100%;
+  /* border: 10px solid red; */
+  margin-top: 10px;
+}
+
+.banner2 img {
+  width: 25%;
+  margin-right: 20px;
+}
+.banner2 img:nth-child(1) {
+  margin-left: 20px;
+}
+.cards {
+  height: 100px;
+  width: 100%;
+  border: 10px solid red;
+}
